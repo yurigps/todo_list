@@ -103,4 +103,4 @@ function TodoApp() {
   )
 }
 
-export default Todo
+export default TodoApp
