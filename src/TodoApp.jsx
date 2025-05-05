@@ -5,13 +5,13 @@ import TodoForm from "./components/TodoForm";
 import Search from './components/Search';
 import Filter from './components/Filter';
 
-import "./App.css";
+import "./TodoApp.css";
 
 
 
 
 
-function App() {
+function TodoApp() {
   const [todos, setTodos] = useState([
     {
       id: 1,
@@ -103,4 +103,4 @@ function App() {
   )
 }
 
-export default App
+export default Todo
