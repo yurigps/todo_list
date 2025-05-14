@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
-import Todo from "../components/Todo";
-import TodoForm from "../components/TodoForm";
-import Search from '../components/Search';
-import Filter from '../components/Filter';
+import Todo from "../components/Todo/Todo";
+import TodoForm from "../components/TodoForm/TodoForm";
+import Search from '../components/Search/Search';
+import Filter from '../components/Filter/Filter';
 
 import "./Todolist.css";
 

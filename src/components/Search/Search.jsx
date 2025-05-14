@@ -1,3 +1,6 @@
+import "./Search.css";
+
+
 const Search = ({ search, setSearch }) => {
     return  (
         <div className="search">
