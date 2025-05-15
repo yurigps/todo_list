@@ -1,7 +1,7 @@
-import "./Filter.css"; 
+import "./Filter.css";
 
 
-const Filter = ({filter, setFilter, setSort}) => {
+const Filter = ({ filter, setFilter, setSort }) => {
     return (
         <div className="filter">
             <h2>Filtrar: </h2>
@@ -16,8 +16,8 @@ const Filter = ({filter, setFilter, setSort}) => {
                 </div>
                 <div>
                     <p>Ordem alfabética:</p>
-                    <button className="button-asc" onClick={() => setSort("Asc")}>Asc</button>
-                    <button className="button-desc"onClick={() => setSort("Desc")}>Desc</button>
+                    <button className="button-asc-desc" id="asc" onClick={() => setSort("Asc")}>Asc</button>
+                    <button className="button-asc-desc" id="desc" onClick={() => setSort("Desc")}>Desc</button>
                 </div>
             </div>
 

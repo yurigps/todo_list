@@ -8,20 +8,20 @@
     display: flex;
     justify-content: space-between;
     gap: 3rem;
+
+    div {
+        flex: 1 1 0;
+    }
 }
 
-.filter-options div {
-    flex: 1 1 0;
+.button-asc-desc {
+    background-color: #81008d;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    margin-right: 0.6rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
 }
-
-.button-asc, .button-desc {
-  background-color: #81008d;
-  color: #fff;
-  padding: 0.3rem 0.6rem;
-  margin-right: 0.6rem;
-  border: none;
-  border-radius: 0.3rem;
-  cursor: pointer;
-  opacity: 0.8;
-  transition: 0.3s;
- }
