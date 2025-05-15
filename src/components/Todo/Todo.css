@@ -1,0 +1,34 @@
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.1);
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complete {
+  background-color: #006ed4;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  margin-right: 0.6rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.remove {
+  background-color: #a50000;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  margin-right: 0.6rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}

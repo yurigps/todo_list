@@ -1,4 +1,5 @@
 import {useState} from "react";
+import "./TodoForm.css";
 
 const TodoForm = ({ addTodo }) => {
   const [value, setValue] = useState("");
@@ -28,7 +29,7 @@ const TodoForm = ({ addTodo }) => {
                     <option value="Pessoal">Pessoal </option>
                     <option value="Estudos">Estudos </option>
                 </select>
-                <button type="submit">Criar tarafa</button>
+                <button className="button-criar-tarefa" type="submit">Criar tarefa</button>
             </form>
 
 
