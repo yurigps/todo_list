@@ -8,9 +8,6 @@ import Filter from '../components/Filter/Filter';
 import "./Todolist.css";
 
 
-
-
-
 function Todolist() {
   const [todos, setTodos] = useState([
     {
